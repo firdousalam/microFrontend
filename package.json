@@ -1,0 +1,31 @@
+{
+    "name": "micro-frontend-platform",
+    "version": "0.1.0",
+    "private": true,
+    "packageManager": "npm@10.0.0",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "turbo run dev",
+        "build": "turbo run build",
+        "lint": "turbo run lint",
+        "test": "turbo run test",
+        "validate": "npx ts-node --project scripts/tsconfig.json scripts/validate.ts",
+        "test:isolation": "npx ts-node --project scripts/tsconfig.json scripts/test-workspace-isolation.ts",
+        "verify:dev-servers": "npx ts-node --project scripts/tsconfig.json scripts/verify-dev-servers.ts",
+        "test:parallel": "npx ts-node --project scripts/tsconfig.json scripts/test-parallel-execution.ts",
+        "test:env": "npx tsx scripts/test-env-variables.ts"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "@types/node": "^20.0.0",
+        "fast-check": "^4.5.3",
+        "jest": "^30.2.0",
+        "ts-jest": "^29.4.6",
+        "ts-node": "^10.9.2",
+        "turbo": "^2.0.0",
+        "typescript": "^5.0.0"
+    }
+}

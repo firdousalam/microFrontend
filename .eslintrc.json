@@ -1,0 +1,21 @@
+{
+    "root": true,
+    "extends": [
+        "next"
+    ],
+    "rules": {
+        "no-restricted-imports": [
+            "error",
+            {
+                "patterns": [
+                    {
+                        "group": [
+                            "../../**/apps/**"
+                        ],
+                        "message": "Cross-application imports are not allowed. Use shared packages instead."
+                    }
+                ]
+            }
+        ]
+    }
+}

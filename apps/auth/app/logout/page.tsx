@@ -1,0 +1,8 @@
+export default function LogoutPage() {
+    return (
+        <main>
+            <h1>Logout</h1>
+            <p>Logout page</p>
+        </main>
+    )
+}
