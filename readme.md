@@ -501,6 +501,7 @@ The `^` prefix means "run this task in dependencies first".
 - [Architecture Documentation](document/Architecture.md)
 - [Local Development Guide](document/LocalDevelopment.md)
 - [Reverse Proxy Guide](document/ReverseProxy.md)
+- [Data Sharing Between Services](document/DataSharing.md)
 - [Deployment Guide](document/Deployment.md)
 - [Turborepo Documentation](https://turbo.build/repo/docs)
 - [Next.js Documentation](https://nextjs.org/docs)
