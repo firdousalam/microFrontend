@@ -1,6 +1,6 @@
 {
     "framework": "nextjs",
-    "buildCommand": "npx turbo build --filter=shell...",
+    "buildCommand": "npm run build",
     "devCommand": "npm run dev",
     "installCommand": "npm install --prefix=../..",
     "outputDirectory": ".next"

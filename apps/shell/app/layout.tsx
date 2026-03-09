@@ -22,8 +22,8 @@ export default function RootLayout({
                     gap: '1.5rem',
                     alignItems: 'center'
                 }}>
-                    <Link href="/" style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>
-                        🏠 Shell
+                    <Link href="/">
+                        <span style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>🏠 Shell</span>
                     </Link>
                     <Link href="/auth/login">🔐 Auth</Link>
                     <Link href="/dashboard">📊 Dashboard</Link>
