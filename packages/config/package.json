@@ -16,8 +16,10 @@
         "lint": "eslint src/",
         "test": "jest"
     },
+    "dependencies": {
+        "typescript": "^5.0.0"
+    },
     "devDependencies": {
-        "typescript": "^5.0.0",
         "eslint": "^8.0.0"
     }
 }

@@ -75,8 +75,15 @@ When configuring the project:
 **Root Directory**: `apps/shell`
 
 **Build Command**:
+
+For Linux/Mac (bash):
 ```bash
 cd ../.. && npx turbo run build --filter=shell
+```
+
+For Windows (PowerShell):
+```powershell
+cd ../..; npx turbo run build --filter=shell
 ```
 
 **Output Directory**: `.next` (default)
@@ -129,7 +136,9 @@ Follow the prompts:
 - **Project name**: Accept default or customize
 - **Directory**: `./` (current directory)
 - **Override settings**: Yes
-  - **Build Command**: `cd ../.. && npx turbo run build --filter=shell`
+  - **Build Command**: 
+    - Linux/Mac: `cd ../.. && npx turbo run build --filter=shell`
+    - Windows: `cd ../..; npx turbo run build --filter=shell`
   - **Output Directory**: `.next`
   - **Development Command**: `npm run dev`
 
@@ -161,6 +170,8 @@ Create `vercel.json` in each app directory:
   "outputDirectory": ".next"
 }
 ```
+
+> **Note for Windows users**: If deploying from Windows, Vercel's build environment uses Linux, so the `&&` syntax will work correctly in `vercel.json` files.
 
 **apps/auth/vercel.json**:
 ```json
@@ -376,6 +387,25 @@ const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 ---
 
 ## Troubleshooting
+
+### Windows PowerShell Command Issues
+
+**Error**: `The token '&&' is not a valid statement separator`
+
+**Solution**: PowerShell uses `;` instead of `&&` for command chaining.
+
+```powershell
+# Wrong (bash syntax)
+cd ../.. && npx turbo run build --filter=shell
+
+# Correct (PowerShell syntax)
+cd ../..; npx turbo run build --filter=shell
+
+# Alternative: Use cmd.exe
+cmd /c "cd ../.. && npx turbo run build --filter=shell"
+```
+
+**Note**: When using `vercel.json` configuration files, keep the `&&` syntax as Vercel's build servers use Linux.
 
 ### Build Fails with "Module not found"
 
