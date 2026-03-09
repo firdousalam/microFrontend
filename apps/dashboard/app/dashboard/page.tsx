@@ -8,9 +8,36 @@ export default async function DashboardPage() {
 
     return (
         <main>
-            <h1>📊 Analytics Dashboard</h1>
-            <p>Dashboard Application - Running on port 3002</p>
-            <p>Accessed via Shell reverse proxy at http://localhost:3000/dashboard</p>
+            <div style={{ marginBottom: '2rem' }}>
+                <div style={{ display: 'flex', gap: '1rem', marginBottom: '0.5rem' }}>
+                    <a
+                        href="/products"
+                        style={{
+                            color: '#3b82f6',
+                            textDecoration: 'none',
+                            fontSize: '0.875rem',
+                            fontWeight: '500'
+                        }}
+                    >
+                        📦 Products
+                    </a>
+                    <span style={{ color: '#d1d5db' }}>|</span>
+                    <a
+                        href="/sales"
+                        style={{
+                            color: '#3b82f6',
+                            textDecoration: 'none',
+                            fontSize: '0.875rem',
+                            fontWeight: '500'
+                        }}
+                    >
+                        💰 Sales
+                    </a>
+                </div>
+                <h1>📊 Analytics Dashboard</h1>
+                <p>Dashboard Application - Running on port 3002</p>
+                <p>Accessed via Shell reverse proxy at http://localhost:3000/dashboard</p>
+            </div>
 
             <div style={{
                 marginTop: '2rem',

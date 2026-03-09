@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Bluetooth Headphones",
+        "description": "Premium noise-cancelling headphones with 30-hour battery life",
+        "price": 149.99,
+        "category": "Electronics",
+        "stock": 45,
+        "image": "/products/headphones.jpg",
+        "createdAt": "2024-01-10T08:00:00Z"
+    },
+    {
+        "id": 2,
+        "name": "Smart Fitness Watch",
+        "description": "Track your health and fitness with GPS and heart rate monitoring",
+        "price": 299.99,
+        "category": "Electronics",
+        "stock": 32,
+        "image": "/products/watch.jpg",
+        "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+        "id": 3,
+        "name": "Ergonomic Office Chair",
+        "description": "Comfortable mesh back chair with lumbar support and adjustable arms",
+        "price": 399.99,
+        "category": "Furniture",
+        "stock": 18,
+        "image": "/products/chair.jpg",
+        "createdAt": "2024-02-01T09:15:00Z"
+    },
+    {
+        "id": 4,
+        "name": "4K Ultra HD Webcam",
+        "description": "Professional webcam with auto-focus and built-in microphone",
+        "price": 89.99,
+        "category": "Electronics",
+        "stock": 67,
+        "image": "/products/webcam.jpg",
+        "createdAt": "2024-02-10T14:20:00Z"
+    },
+    {
+        "id": 5,
+        "name": "Mechanical Gaming Keyboard",
+        "description": "RGB backlit keyboard with Cherry MX switches",
+        "price": 129.99,
+        "category": "Electronics",
+        "stock": 54,
+        "image": "/products/keyboard.jpg",
+        "createdAt": "2024-02-20T11:45:00Z"
+    },
+    {
+        "id": 6,
+        "name": "Portable Power Bank 20000mAh",
+        "description": "Fast charging power bank with dual USB ports",
+        "price": 49.99,
+        "category": "Electronics",
+        "stock": 120,
+        "image": "/products/powerbank.jpg",
+        "createdAt": "2024-03-05T16:30:00Z"
+    },
+    {
+        "id": 7,
+        "name": "Standing Desk Converter",
+        "description": "Adjustable height desk converter for ergonomic workspace",
+        "price": 249.99,
+        "category": "Furniture",
+        "stock": 28,
+        "image": "/products/desk.jpg",
+        "createdAt": "2024-03-15T13:10:00Z"
+    },
+    {
+        "id": 8,
+        "name": "Wireless Gaming Mouse",
+        "description": "High-precision mouse with customizable buttons and RGB lighting",
+        "price": 79.99,
+        "category": "Electronics",
+        "stock": 89,
+        "image": "/products/mouse.jpg",
+        "createdAt": "2024-04-01T10:25:00Z"
+    },
+    {
+        "id": 9,
+        "name": "USB-C Docking Station",
+        "description": "Multi-port hub with HDMI, USB 3.0, and ethernet connectivity",
+        "price": 159.99,
+        "category": "Electronics",
+        "stock": 41,
+        "image": "/products/dock.jpg",
+        "createdAt": "2024-04-12T15:40:00Z"
+    },
+    {
+        "id": 10,
+        "name": "LED Desk Lamp",
+        "description": "Adjustable brightness desk lamp with USB charging port",
+        "price": 39.99,
+        "category": "Furniture",
+        "stock": 95,
+        "image": "/products/lamp.jpg",
+        "createdAt": "2024-04-25T09:55:00Z"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "email": "admin@example.com",
+        "password": "admin123",
+        "name": "Admin User",
+        "role": "admin",
+        "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+        "id": 2,
+        "email": "john.doe@example.com",
+        "password": "john123",
+        "name": "John Doe",
+        "role": "user",
+        "createdAt": "2024-02-20T14:15:00Z"
+    },
+    {
+        "id": 3,
+        "email": "jane.smith@example.com",
+        "password": "jane123",
+        "name": "Jane Smith",
+        "role": "manager",
+        "createdAt": "2024-03-10T09:45:00Z"
+    },
+    {
+        "id": 4,
+        "email": "bob.wilson@example.com",
+        "password": "bob123",
+        "name": "Bob Wilson",
+        "role": "user",
+        "createdAt": "2024-04-05T16:20:00Z"
+    },
+    {
+        "id": 5,
+        "email": "alice.brown@example.com",
+        "password": "alice123",
+        "name": "Alice Brown",
+        "role": "user",
+        "createdAt": "2024-05-12T11:30:00Z"
+    },
+    {
+        "id": 6,
+        "email": "charlie.davis@example.com",
+        "password": "charlie123",
+        "name": "Charlie Davis",
+        "role": "manager",
+        "createdAt": "2024-06-18T13:45:00Z"
+    },
+    {
+        "id": 7,
+        "email": "diana.miller@example.com",
+        "password": "diana123",
+        "name": "Diana Miller",
+        "role": "user",
+        "createdAt": "2024-07-22T08:15:00Z"
+    },
+    {
+        "id": 8,
+        "email": "edward.jones@example.com",
+        "password": "edward123",
+        "name": "Edward Jones",
+        "role": "user",
+        "createdAt": "2024-08-30T15:50:00Z"
+    },
+    {
+        "id": 9,
+        "email": "fiona.garcia@example.com",
+        "password": "fiona123",
+        "name": "Fiona Garcia",
+        "role": "manager",
+        "createdAt": "2024-09-14T10:25:00Z"
+    },
+    {
+        "id": 10,
+        "email": "george.martinez@example.com",
+        "password": "george123",
+        "name": "George Martinez",
+        "role": "user",
+        "createdAt": "2024-10-08T12:40:00Z"
+    }
+]
