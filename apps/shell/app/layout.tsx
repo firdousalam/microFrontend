@@ -1,4 +1,10 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Micro-Frontend Platform',
+    description: 'Shell application for micro-frontend architecture',
+};
 
 export default function RootLayout({
     children,
