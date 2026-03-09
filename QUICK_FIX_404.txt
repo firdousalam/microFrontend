@@ -1,0 +1,58 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║              🔧 QUICK FIX FOR 404 ERROR                          ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Problem: Clicking "View Details" gives 404 error
+
+Solution: Restart dev servers (3 simple steps)
+
+
+┌──────────────────────────────────────────────────────────────────┐
+│ STEP 1: Stop Servers                                             │
+└──────────────────────────────────────────────────────────────────┘
+
+   In your terminal, press:  Ctrl + C
+
+
+┌──────────────────────────────────────────────────────────────────┐
+│ STEP 2: Clean Cache                                              │
+└──────────────────────────────────────────────────────────────────┘
+
+   npm run clean
+
+
+┌──────────────────────────────────────────────────────────────────┐
+│ STEP 3: Restart Servers                                          │
+└──────────────────────────────────────────────────────────────────┘
+
+   npm run dev
+
+   Wait for "✓ Ready" messages (30-60 seconds)
+
+
+┌──────────────────────────────────────────────────────────────────┐
+│ STEP 4: Test                                                     │
+└──────────────────────────────────────────────────────────────────┘
+
+   Go to: http://localhost:3000/sales
+   Click "View Details" → Should work now! ✅
+
+
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║  WHY: New dynamic route pages need server restart to build      ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+
+Alternative: Use PowerShell script
+
+   .\restart-dev.ps1
+
+
+Need more help? See:
+  • FIX_404_ISSUE.md - Detailed guide
+  • RESTART_REQUIRED.md - Why restart is needed
+  • TROUBLESHOOTING.md - General troubleshooting
